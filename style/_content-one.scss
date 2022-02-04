@@ -1,0 +1,48 @@
+.content-one {
+    padding: 100px 0;
+    background-color: $dark-blue-main;
+    display: flex;
+    justify-content: center;
+    .inner-content-one {
+        color: $white;
+        max-width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s;
+            &:hover {
+                outline: 2px solid $cyan;
+                outline-offset: 20px;
+            }
+        }
+        .item-3,
+        .item-4 {
+            margin-top: 4em;
+        }
+        .inner-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 80%;
+            img {
+                margin-bottom: 1em;
+            }
+            h4 {
+                font-size: 1.2em;
+                margin-bottom: 0.5em;
+            }
+            p {
+                font-size: 0.9em;
+            }
+        }
+    }
+}

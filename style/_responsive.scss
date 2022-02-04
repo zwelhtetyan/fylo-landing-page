@@ -1,0 +1,145 @@
+@media screen and (max-width: 992px) {
+    .inner-feedback {
+        flex-direction: column !important;
+        .feedback2 {
+            margin: 0 !important;
+        }
+        .feedback {
+            margin-bottom: 4em !important;
+        }
+    }
+    .footer {
+        .logo {
+            margin-bottom: 2em;
+        }
+    }
+    .footer-text {
+        flex-direction: column;
+        .brand-and-location,
+        .email-and-phone,
+        .about-us,
+        .contact-us,
+        .social-icon {
+            margin-bottom: 2em;
+            width: 100% !important;
+        }
+        .email-and-phone {
+            align-items: flex-start !important;
+        }
+        .brand-and-location p {
+            max-width: 500px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .menu-container ul li {
+        margin-left: 1.5em !important;
+    }
+    header {
+        padding: 5px 20px !important;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+    .inner-content-one {
+        flex-direction: column !important;
+        .item {
+            width: 100% !important;
+            .inner-item {
+                width: 80% !important;
+            }
+        }
+        .item-2 {
+            margin-top: 4em !important;
+        }
+    }
+    .content-two {
+        padding: 50px 30px !important;
+    }
+    .inner-content-two {
+        flex-direction: column !important;
+        .left {
+            width: 100% !important;
+            img {
+                margin-bottom: 4em !important;
+            }
+        }
+        .right {
+            width: 100% !important;
+        }
+    }
+    .feedback-container {
+        padding: 50px !important;
+        padding-bottom: 200px !important;
+    }
+    .footer {
+        padding: 100px 50px !important;
+        padding-bottom: 20px !important;
+    }
+    .email-access {
+        padding: 1.5em 2em !important;
+    }
+    .email {
+        flex-direction: column !important;
+        input {
+            margin: 0 !important;
+            margin-bottom: 1em !important;
+            width: 100% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        .logo img {
+            width: 70px !important;
+        }
+    }
+
+    .intro img {
+        width: 80% !important;
+    }
+    .inner-home h3 {
+        margin-top: 1.5em !important;
+    }
+    .left {
+        img {
+            width: 100% !important;
+        }
+    }
+    .feedback-container {
+        padding: 50px 30px !important;
+        padding-bottom: 200px !important;
+        .feedback {
+            margin-bottom: 2em !important;
+        }
+    }
+    .email-access-container {
+        padding: 0 15px !important;
+        .email-access h2 {
+            font-size: 1em !important;
+        }
+    }
+    .scroll-icon {
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .menu-container ul li {
+        margin-left: 1em !important;
+        font-size: 13px !important;
+    }
+    header {
+        .logo img {
+            width: 60px !important;
+        }
+    }
+    header {
+        padding: 5px 10px !important;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+}

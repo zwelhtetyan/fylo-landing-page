@@ -1,0 +1,32 @@
+.scroll-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    animation: animate infinite 1s linear;
+    animation-fill-mode: forwards;
+}
+.scroll-up {
+    display: none;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
